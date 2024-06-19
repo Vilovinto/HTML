@@ -1,0 +1,13 @@
+p{
+    font-size: 20px;
+}
+span{
+    background-color: rgba(128, 128, 128, 0.21);
+    font-size: 35px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px 0 0;
+}
+.red{
+    color: red;
+}
