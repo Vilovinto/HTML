@@ -1,0 +1,27 @@
+.text{
+    text-align: center;
+}
+.product{
+    width: 125px;
+    height: 145px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+img{
+    width: 80px;
+}
+.box{
+    background-color: rgba(128, 128, 128, 0);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+p{
+    padding: 5px 0;
+}
