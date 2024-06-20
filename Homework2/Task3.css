@@ -17,8 +17,10 @@ img{
 .box{
     background-color: rgba(128, 128, 128, 0);
     height: 500px;
+    width: 800px;
     display: flex;
     justify-content: space-evenly;
+    margin: auto;
     flex-wrap: wrap;
     gap: 10px;
 }
