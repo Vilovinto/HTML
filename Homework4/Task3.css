@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 3vh;
+}
+p{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
+.color{
+    background-color: #3a3ae6;
+    justify-content: center;
+    align-content: center;
+}
+.widgets{
+    height: 60vh;
+}
+.widgets-font{
+    height: 80vh;
+    display: flex;
+    gap: 3vw;
+    padding: 5vh;
+    justify-content: center;
+}
+.widgets3{
+    height: 100%;
+    width: 30%;
+}
+.contact{
+    height: 100vh;
+}
