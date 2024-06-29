@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pink{
+    background-color: pink;
+    color: black;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+p{
+    margin: 5vh 5vw;
+}
+h3{
+    font-size: 30px;
+}
