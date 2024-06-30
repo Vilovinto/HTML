@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -37,4 +38,38 @@ header nav ul a:hover{
 }
 header div{
     text-align: center;
+}
+
+.section-contact{
+    height: 90vh;
+    background-image: url("img_1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.first-text{
+    font-family: "Montserrat", sans-serif;
+    margin: 2vh;
+    font-size: 35px;
+}
+.section-contact h3{
+    font-size: 30px;
+    margin: 2vh;
+}
+.section-contact p{
+    margin-top: 2vh;
+}
+.section-contact ul{
+    margin-top: 2vh;
+    list-style-type: none;
+}
+.section-contact a{
+    text-decoration: none;
+    color: blue;
+}
+.section-contact a:hover{
+    text-decoration: underline;
 }
