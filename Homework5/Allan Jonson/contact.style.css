@@ -41,6 +41,7 @@ header div{
 }
 
 .section-contact{
+    font-family: "Montserrat", sans-serif;
     height: 90vh;
     background-image: url("img_1.png");
     background-size: cover;
@@ -51,19 +52,18 @@ header div{
     text-align: center;
 }
 .first-text{
-    font-family: "Montserrat", sans-serif;
-    margin: 2vh;
+    margin: 1vh;
     font-size: 35px;
 }
 .section-contact h3{
     font-size: 30px;
-    margin: 2vh;
+    margin: 1vh;
 }
 .section-contact p{
     margin-top: 2vh;
 }
 .section-contact ul{
-    margin-top: 2vh;
+    margin-top: 1vh;
     list-style-type: none;
 }
 .section-contact a{
