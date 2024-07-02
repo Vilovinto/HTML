@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #8D8484;
+    height: 22vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 56vh;
+    display: flex;
+}
+.content1{
+    height: 19vh;
+    width: 74vw;
+    background-color: #776969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content2{
+    height: 20vh;
+    width: 74vw;
+    background-color: #643030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content3{
+    height: 18vh;
+    width: 74vw;
+    background-color: #441818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spam1{
+    height: 28vh;
+    width: 26vw;
+    background-color: #937575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spam2{
+    height: 29vh;
+    width: 26vw;
+    background-color: #937575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #BDBDBD;
+    height: 22vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: "Inter", sans-serif;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
