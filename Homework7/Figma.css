@@ -79,6 +79,10 @@ iframe{
     height: 100vh;
     background-image: url(image/bgc-2.png);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .general{
     width: 1512px;
