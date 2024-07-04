@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    height: 20vh;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+header ul a{
+    text-decoration: none;
+    height: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main{
+    height: 80vh;
+    background: #FBF6F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .svg{
+    width: 581.019px;
+    height: 652.972px;
+    margin-right: 43px;
+}
+main .main-text h2{
+    color: #000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+
+    font-size: 48px;
+    font-weight: 400;
+}
+main .main-text h3{
+    color: #AD0306;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 37px;
+}
+main .main-text .span{
+    display: flex;
+    margin-top: 37px;
+    gap: 27px;
+}
+main .main-text .black{
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+main .main-text .gray{
+    color: #A19FA0;
+    -webkit-text-stroke-width: 0.20000000298023224px;
+    -webkit-text-stroke-color: #A19FA0;
+    font-size: 13px;
+    font-weight: 400;
+}
+main .main-text .red{
+    color: #B93536;
+    -webkit-text-stroke-width: 0.20000000298023224px;
+    -webkit-text-stroke-color: #A90102;
+    font-size: 13px;
+    font-weight: 400;
+}
+main .main-text .first-text{
+    color: #000;
+    -webkit-text-stroke-width: 0.10000000149011612px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 48px;
+}
+main .main-text .second-text{
+    color: #000;
+    -webkit-text-stroke-width: 0.10000000149011612px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
