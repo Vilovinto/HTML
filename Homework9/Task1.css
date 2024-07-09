@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #008b8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.background{
+    height: 50vh;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+.background h4{
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.background form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background form input[type=text]{
+    margin-top: 50px;
+    width: 400px;
+    height: 40px;
+}
+.background form input[type=password]{
+    margin-top: 35px;
+    width: 400px;
+    height: 40px;
+}
+.background .check{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 150px;
+}
+.background .check button{
+    width: 120px;
+    height: 30px;
+    border: solid gray 1px;
+    border-radius: 8px;
+}
