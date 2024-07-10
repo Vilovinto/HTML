@@ -9,7 +9,7 @@ body{
     justify-content: center;
 }
 main{
-    height: 100vh;
+    height: 70vh;
     width: 45vw;
     display: flex;
     flex-direction: column;
@@ -79,8 +79,8 @@ a{
     align-items: center;
 }
 .last p{
-    font-size: 20px;
-    transform: scale(1.4);
+    font-size: 15px;
+    transform: scale(1.9);
 }
 .last p a{
     color: #3a3ae6;
