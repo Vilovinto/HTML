@@ -135,6 +135,8 @@ main>section>div>button{
 main>.photo2{
     width: 1340px;
     height: 753px;
+    display: flex;
+    justify-content: center;
 }
 main>.photo2>img{
     width: 650px;
@@ -147,6 +149,8 @@ main>img{
     height: 503px;
     border-radius: 30px;
     border: 4px solid #D9D9D9;
+    display: flex;
+    justify-content: center;
 }
 main>.final{
     width: 895px;
