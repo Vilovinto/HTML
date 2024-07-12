@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 1018px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 996px;
+    height: 44px;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 996px;
+    height: 44px;
+    gap: 35px;
+}
+nav>ul>li>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    animation: header 0.5s ease-in-out 1;
+}
+header>div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+header>div>span{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 11.813px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+}
+img{
+    width: 761px;
+    height: 432px;
+    margin: 78px auto 68px auto;
+    animation: image 1s ease-in-out 1;
+}
+h1{
+    width: 1039px;
+    height: 67px;
+    color: #1D1D1F;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: -1.44px;
+    margin: 0 auto 53px auto;
+    animation: text 1s ease-in-out 1;
+}
+p{
+    width: 975.81px;
+    height: 112px;
+    color: #86868B;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 21.563px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+    margin: 0 auto 52px auto;
+    animation: text 1s ease-in-out 1;
+}
+@keyframes header {
+    0%{
+        transform: translateX(350px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(350px);
+        opacity: 1;
+    }
+    90%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes image {
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    90%{
+        opacity: 0.5;
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes text {
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    90%{
+        opacity: 0.5;
+        transform: translateY(25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
