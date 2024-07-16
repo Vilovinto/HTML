@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+table{
+    height: 100%;
+    margin: auto;
+    border: 3px solid #8d8d8d;
+    border-spacing: 2px;
+}
+table>thead>tr>th{
+    color: #771513;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 5px solid #8d8d8d;
+    font-size: 30px;
+}
+table>tbody>tr>td{
+    padding: 5px 80px 5px 0;
+    border: 0.5px solid #8d8d8d;
+    font-weight: bold;
+}
+table>tbody>tr>td:nth-child(3){
+    width: 300px;
+}
