@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 2069px;
+    background: #F7F6F4;
+}
+header{
+    width: 1440px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+header>img{
+    width: 178px;
+    height: 22px;
+    margin: 42px 165px;
+}
+header>nav{
+    width: 445px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>nav>ul{
+    width: 445px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: 186px;
+}
+header>nav>ul>li{
+    position: relative;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    display: block;
+    padding: 10px 0;
+}
+.spare{
+    width: 107px;
+    height: 160px;
+    position: absolute;
+    display: none;
+    padding: 15px 41px 23px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.spare a{
+    text-decoration: none;
+    width: 76px;
+    height: 23px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+header>nav>ul>li:hover .spare{
+    display: inline-flex;
+}
+section{
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    display: flex;
+    justify-content: center;
+    margin: 90px 164px;
+}
+section img{
+    width: 325px;
+    height: 467px;
+}
+section h2{
+    width: 413px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1.2px;
+    margin: 56px 317px 32px 56px;
+}
+section p{
+    width: 529px;
+    margin: 0 56px;
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+section button{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin: 79px 56px;
+}
+h3{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    margin: 79px 164px;
+}
+.cards{
+    width: 1068px;
+    height: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin-left: 185px;
+}
+.clock{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.04);
+}
+.clock img{
+    width: 221px;
+    height: 221px;
+}
+.clock p{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 7px 14px;
+}
+.final{
+    width: 1032px;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 163px;
+}
+.final img{
+    width: 610px;
+    height: 484px;
+    margin-left: 55px;
+}
+.text p:nth-child(1){
+    width: 163px;
+    color: #777;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+.text p:nth-child(2){
+    width: 350px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.72px;
+    margin-top: 20px;
+}
