@@ -1,0 +1,22 @@
+header{
+    width: 100vw;
+    height: 30vh;
+    background-color: grey;
+}
+section{
+    width: 100vw;
+    height: 67vh;
+    margin-top: 1vh;
+    display: flex;
+    gap: 1vw;
+}
+section .b{
+    width: 70%;
+    height: 100%;
+    background-color: grey;
+}
+section .c{
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
