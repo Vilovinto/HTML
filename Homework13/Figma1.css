@@ -94,15 +94,16 @@ main .main-text .second-text{
 }
 section{
     width: 1440px;
-    height: 2048px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 section>.main{
     width: 1440px;
-    height: 2048px;
-    background: #FFF;
+    height: 100%;
+    margin-bottom: 100px;
+    background: #FBF6F3;
     display: flex;
     flex-direction: column;
     justify-content: center;
