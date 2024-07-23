@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+    header{
+        flex-direction: column;
+        height: 20vh;
+    }
+    header div{
+        width: 100%;
+        height: 25%;
+    }
+    .banner{
+        height: 10vh;
+        margin-top: 50px;
+    }
+    .article{
+        height: 50vh;
+    }
+    .article .first{
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+    }
+    .article .second {
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+    }
+    .article .first div{
+        width: 100%;
+    }
+    .article .second div{
+        width: 100%;
+    }
+}

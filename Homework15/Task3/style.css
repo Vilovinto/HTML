@@ -1,0 +1,52 @@
+header{
+    height: 5vh;
+    width: 100vw;
+    gap: 10px;
+    display: flex;
+}
+header div{
+    height: 100%;
+    width: 100px;
+    background-color: lightblue;
+}
+.banner{
+    height: 40vh;
+    width: 100vw;
+    background-color: lightblue;
+}
+.article{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.article .first{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+}
+.article .first div{
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+}
+.article .second{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.article .second div{
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+}
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: lightblue;
+}
+
