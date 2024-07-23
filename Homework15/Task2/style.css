@@ -1,0 +1,41 @@
+header{
+    width: 100vw;
+    height: 30vh;
+    background-color: grey;
+}
+.bcdef{
+    width: 100vw;
+    height: 67vh;
+    margin-top: 15px;
+    display: flex;
+}
+.bcde{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bcde .b{
+    width: 100%;
+    height: 50%;
+    background-color: grey;
+}
+.cde{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 20px;
+}
+.c,.d,.e{
+    width: 33%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+}
+.bcdef .f{
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+    margin-left: 10px;
+}
