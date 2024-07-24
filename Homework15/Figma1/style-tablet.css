@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        flex-direction: column;
+        height: 828px;
+    }
+    section{
+        margin: 48px 24px 0 24px;
+        width: 720px;
+        height: 303px;
+        display: flex;
+        gap: 16px;
+    }
+    iframe{
+        margin: 0 24px 48px 24px;
+        width: 720px;
+        height: 405px;
+    }
+}
