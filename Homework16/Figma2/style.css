@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: 2fr 8fr 2fr;
+    grid-template-areas:
+    'header header header header header'
+    'first second third four five'
+    'footer footer footer footer footer'
+;
+}
+header{
+    grid-area: header;
+    background: #D9D9D9;
+}
+.first{
+    grid-area: first;
+    background: #A4A4A4;
+}
+.second{
+    grid-area: second;
+    background: #CAC7C7;
+}
+.third{
+    grid-area: third;
+    background: #A4A4A4;
+}
+.four{
+    grid-area: four;
+    background: #CAC7C7;
+}
+.five{
+    grid-area: five;
+    background: #A4A4A4;
+}
+footer{
+    grid-area: footer;
+    background: #D9D9D9;
+}
