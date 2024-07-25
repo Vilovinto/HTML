@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    .all{
+        grid-gap: 2vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-areas:
+        'header header header'
+        'section section section'
+        'c d e'
+        'aside aside aside'
+    ;
+    }
+}

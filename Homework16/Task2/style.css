@@ -1,0 +1,36 @@
+.all{
+    display: grid;
+    height: 100vh;
+    grid-gap: 1vh;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(3, 2fr);
+    grid-template-areas:
+    'header header header header'
+    'section section section aside'
+    'c d e aside'
+;
+}
+header{
+    grid-area: header;
+    background-color: grey;
+}
+section{
+    grid-area: section;
+    background-color: grey;
+}
+.c{
+    grid-area: c;
+    background-color: grey;
+}
+.d{
+    grid-area: d;
+    background-color: grey;
+}
+.e{
+    grid-area: e;
+    background-color: grey;
+}
+aside{
+    grid-area: aside;
+    background-color: grey;
+}
