@@ -1,12 +1,11 @@
 @media screen and (max-width: 480px) {
-    main{
+    body{
         flex-direction: column;
         height: 647px;
     }
     section{
         margin: 32px 16px 0 32px;
         width: 343px;
-        height: 366px;
         display: flex;
         gap: 16px;
     }

@@ -4,12 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+body{
     display: flex;
 }
 section{
     width: 578px;
-    height: 441px;
     margin: 64px 130px;
     display: flex;
     flex-direction: column;
